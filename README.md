@@ -13,7 +13,21 @@
    npm -v
 
 5) Instalar o JSON-Server:
-   npm install -g json-server
+   npm install -g json-server --save
+
+6) Instalar o middleware CORS (Cross-Origin Resource Sharing):
+   npm install cors
+
+7) A versão do JSON-Server no arquivo package.json deve ser "^0.17.0". 
+   Exemplo:
+   {
+     "dependencies": {
+       "cors": "^2.8.5",
+       "json-server": "^0.17.0"
+     }
+   }
+   Caso não seja essa versão, atualizar o arquivo package.json e executar o comando:
+   npm install
 
 6) Na raiz do projeto, criar "db/db.json":
  {
@@ -26,8 +40,5 @@
     ]
   }
  
-7) Instalar o middleware CORS (Cross-Origin Resource Sharing):
-   npm install cors
-
 8) Executar o arquivo server.js:
    node server.js
