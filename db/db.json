@@ -1,0 +1,41 @@
+{
+  "postagens": [
+    {
+      "id": "1",
+      "titulo": "Título 01",
+      "visualizacoes": 100
+    },
+    {
+      "id": "2",
+      "titulo": "Título 02",
+      "visualizacoes": 200
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "1",
+      "texto": "Comentário 01",
+      "id-postagem": "1"
+    },
+    {
+      "id": "2",
+      "texto": "Comentário 02",
+      "id-postagem": "1"
+    },
+    {
+      "id": "3",
+      "texto": "Comentário 03",
+      "id-postagem": "2"
+    }
+  ],
+  "perfis": [
+    {
+      "id": 1,
+      "nome": "Diana"
+    },
+    {
+      "id": 2,
+      "nome": "Elaine"
+    }
+  ]
+}
